@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar"
+import "../css/home.css"
 
       
 export default function Home(){
@@ -6,7 +6,10 @@ export default function Home(){
     return(
         <>
         
-        <h1>Home</h1>
+        <div className="home-contanier">
+              <div>picture</div>  
+              <div>pár szó rolam</div>  
+        </div>
         </>
     )
 }
