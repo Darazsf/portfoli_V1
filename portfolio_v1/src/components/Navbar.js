@@ -1,20 +1,53 @@
 
+import { NavLink } from "react-router-dom";
+import "../css/navbar.css"
 
 
 const Navbar = () => {
     return (
-      <nav>
-        <div>
-        <h1>Darázs Ferenc</h1>
+      <nav className="navbar">
+        <div className="container">
+        <div className="brand">
+          <h1 className="brand-name">Darázs Ferenc</h1>
         </div>
-        <div>
+        <div className="nav-elements">
           <ul>
-            <li>Home</li>
-            <li>Blog</li>
-            <li>Projects</li>
-            <li>About</li>
-            <li>Contact</li>
+            <li><NavLink
+              to="/"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              Home
+            </NavLink>
+            </li>
+
+            <li> <NavLink
+              to="/about"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              About
+            </NavLink></li>
+            <li> <NavLink
+              to="/projects"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              Projects
+            </NavLink></li>
+            <li>  <NavLink
+              to="/contact"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              Contact
+            </NavLink></li>
           </ul>
+        </div>
         </div>
       </nav>
     )
