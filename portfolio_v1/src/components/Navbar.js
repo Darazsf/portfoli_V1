@@ -8,7 +8,7 @@ const Navbar = () => {
       <nav className="navbar">
         <div className="container">
         <div className="brand">
-          <h1 className="brand-name">Darázs Ferenc</h1>
+          <h1><a href="/" className="name">Darázs Ferenc</a></h1>
         </div>
         <div className="nav-elements">
           <ul>
@@ -18,7 +18,7 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              Home
+              <span> {"< "}Home{"/>"}</span>
             </NavLink>
             </li>
 
@@ -28,7 +28,7 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              About
+              <span> {"< "}About{"/>"}</span>
             </NavLink></li>
             <li> <NavLink
               to="/projects"
@@ -36,7 +36,7 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              Projects
+              <span> {"< "}Projects{"/>"}</span>
             </NavLink></li>
             <li>  <NavLink
               to="/contact"
@@ -44,7 +44,7 @@ const Navbar = () => {
                 isPending ? "pending" : isActive ? "active" : ""
               }
             >
-              Contact
+              <span> {"< "}Contact{"/>"}</span>
             </NavLink></li>
           </ul>
         </div>
