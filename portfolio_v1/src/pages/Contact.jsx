@@ -7,8 +7,8 @@ export default function Contact(){
                 <ul>
                     <li>18.10.1987</li>
                     <li>Budapest, Hungary</li>
-                    <li>+36 30-297-22-58</li>
-                    <li>darazs.feri@gmail.com</li>
+                    <li></li>
+                    <li><a href = "mailto: darazs.feri@gmail.com">Send Email</a></li>
                     <li>    
                         <span></span>
                         <span><a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit" target="blank">Linkedin </a></span>
