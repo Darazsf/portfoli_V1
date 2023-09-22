@@ -2,6 +2,7 @@ export default function Contact(){
     return(
         <>
              <div className="contact-container">
+                <h2>Contact</h2>
                 <div>
                 <ul>
                     <li>18.10.1987</li>
