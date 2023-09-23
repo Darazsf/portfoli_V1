@@ -9,6 +9,7 @@
     align-items: center;
     height: 100%;
   }
+
   .toggle-btn{
     display: none;
   }
@@ -16,8 +17,11 @@
   .navbar {
     height: 5rem;
     position: relative;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px;
+    box-shadow: rgba(118, 124, 130, 1) 0px 1px 10px;
   }
+.navbar:hover{
+  background-color: rgba(58, 67, 76, 1);
+}
   
 
   
@@ -34,7 +38,7 @@
   .nav-elements ul a {
     font-size: 16px;
     font-weight: 700;
-    color: #323232;
+    color:beige;
     text-decoration: none;
   }
   
@@ -60,7 +64,7 @@
     font-family: 'Great Vibes', cursive;
     font-size: xx-large;
     text-decoration: none;
-    color: #323232;
+    color:beige;
 
   }
   .name:hover{
@@ -116,7 +120,7 @@
     }
     .toggle-btn{
       display: block;
-      margin-right: 1rem;
+      margin-top: 1rem;
     }
     .dropdown-menu{
       display: block;
