@@ -1,10 +1,19 @@
 
 import { NavLink } from "react-router-dom";
 import "../css/navbar.css"
+import { useState } from "react";
+
+
 
 
 const Navbar = () => {
+
+
+ 
+
+
     return (
+    
       <nav className="navbar">
         <div className="container">
         <div className="brand">
@@ -50,7 +59,7 @@ const Navbar = () => {
 
           {/* Dropdown menu */}
         </div>
-          <div className="toggle-btn"><i><span class="material-symbols-outlined">
+          <div className="toggle-btn"><i onClick={openMenu()}><span class="material-symbols-outlined">
             menu
           </span></i></div>
 
@@ -92,7 +101,13 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
+
+    
     )
+  }
+
+        function openMenu(){
+         
   }
   
   export default Navbar

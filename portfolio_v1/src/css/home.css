@@ -15,3 +15,29 @@
     gap: 10%;
    
 }
+@media (max-width: 1270px){
+
+    .me{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+
+    }
+}
+
+
+
+@media (max-width: 800px){
+    .me{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .sepia{
+        
+        width: 200px;
+     
+    }
+}
