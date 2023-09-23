@@ -47,7 +47,49 @@ const Navbar = () => {
               <span> {"< "}Contact{"/>"}</span>
             </NavLink></li>
           </ul>
+
+          {/* Dropdown menu */}
         </div>
+          <div className="toggle-btn"><i><span class="material-symbols-outlined">
+            menu
+          </span></i></div>
+
+          <div className="dropdown-menu">
+          <li><NavLink
+              to="/"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              <span> {"< "}Home{"/>"}</span>
+            </NavLink>
+            </li>
+
+            <li> <NavLink
+              to="/about"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              <span> {"< "}About{"/>"}</span>
+            </NavLink></li>
+            <li> <NavLink
+              to="/projects"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              <span> {"< "}Projects{"/>"}</span>
+            </NavLink></li>
+            <li>  <NavLink
+              to="/contact"
+              className={({ isActive, isPending }) =>
+                isPending ? "pending" : isActive ? "active" : ""
+              }
+            >
+              <span> {"< "}Contact{"/>"}</span>
+            </NavLink></li>
+          </div>
         </div>
       </nav>
     )
