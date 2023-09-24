@@ -38,7 +38,7 @@ export default function About(){
                             <p>Git, Scrum, Reat API, Ajax, OOP, Firebase, Boostrap</p>
                         </div>
                         <div>
-                            <h2>I would like tolearnin the future</h2>
+                            <h2>I would like to learn in the future</h2>
                             <ul className="listing">
                                 <li>Typescript</li>
                                 <li>Typescript</li>
