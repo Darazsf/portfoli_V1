@@ -17,6 +17,10 @@
     color: beige;
    
 }
+
+
+
+
 @media (max-width: 1270px){
 
     .me{
@@ -24,6 +28,7 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
+        padding-bottom: 3rem;
 
     }
 }
@@ -36,6 +41,7 @@
         text-align: center;
         justify-content: center;
         flex-direction: column;
+        padding-bottom: 3rem;
     }
     .sepia{
         

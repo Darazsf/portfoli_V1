@@ -8,7 +8,7 @@
     justify-content: space-between;
     align-items: center;
     height: 100%;
-
+    
   }
 
   .toggle-btn{
@@ -16,19 +16,22 @@
   }
 
   .navbar {
+
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin: auto;
     height: 5rem;
-    width: 95%;
+    width: 98%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     position: relative;
     box-shadow: rgba(118, 124, 130, 1) 0px 1px 10px;
   }
 .navbar:hover{
-  background-color: rgba(58, 67, 76, 1);
+  background-color: rgba(58, 67, 76, 1); 
+  transition: all .5s ease;
+ 
 }
   
 

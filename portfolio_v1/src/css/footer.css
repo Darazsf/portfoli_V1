@@ -2,18 +2,19 @@
     position: fixed;
     left: 0;
     bottom: 0;
-    width: 100%;
+    width:100vw;
     display: flex;
     flex-direction: row;
-    justify-content:space-between;
+    justify-content:space-around;
     text-align: center;
     height: 3rem;
     margin: 0;
     color: beige;
-    padding: 0 90px ;
     background-color: #1d2025;
+   
   
 }
+
 
 
 .footer-icon {
@@ -23,15 +24,17 @@
     align-items: center;
     gap: 1rem;
     color: beige;
+    margin: 0;
     
 }
 
+
 .footer-icon li {
     list-style: none;
+  
 }
 
 .footer-icon a {
     color: beige;
 }
-.copyright{
-}
+
