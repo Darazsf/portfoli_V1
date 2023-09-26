@@ -1,14 +1,12 @@
 
   
   .container {
-    max-width: 1000px;
-    margin: 0 auto;
     padding: 0 15px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    height: 100%;
-    
+
   }
 
   .toggle-btn{
@@ -16,13 +14,9 @@
   }
 
   .navbar {
-
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
     margin: auto;
     height: 5rem;
-    width: 98%;
+    width: 100%;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     position: relative;
@@ -38,8 +32,8 @@
   
   .nav-elements ul {
     display: flex;
-    justify-content: space-between;
     list-style-type: none;
+  
   }
   
   .nav-elements ul li:not(:last-child) {
@@ -78,10 +72,7 @@
     color:beige;
 
   }
-  .name:hover{
-    border-bottom:2px solid #BFA181;
-    transition: ease-out;
-  }
+
 
 /*dropdown-menu*/
 .dropdown-menu li{
