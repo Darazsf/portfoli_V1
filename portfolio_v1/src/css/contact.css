@@ -48,3 +48,18 @@
     
 }
 
+
+@media (max-width: 800px){
+    .con-icon{
+        flex-direction: column;
+        margin: auto;
+        padding: 0;
+        
+    }
+   iframe{
+    width: 95%;
+    height: 300px;
+    
+
+   }
+}

@@ -11,9 +11,8 @@
 
   .toggle-btn{
    
-    display:inline-block;
-  
-    margin-top: 1rem;
+    display:none;
+   
    
   }
 
@@ -114,7 +113,11 @@
 @media (max-width: 1270px){
   .nav-container{
    justify-content:space-between;
+  
       
+  }
+  .nav-elements{
+    margin-right: 2rem;
   }
   .name{
     margin-left: 2rem;
@@ -131,11 +134,13 @@
       display: none;
 
     }
-    .toggle-btn{
-
-    }
+  
+ 
     .dropdown-menu{
       display: block;
+    }
+    .name{
+      font-size:x-large;
     }
 
 

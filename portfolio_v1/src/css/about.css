@@ -23,13 +23,17 @@
 .skills-container{
     margin-top: 4rem;
     margin-left: 2rem;
-   
-    
 }
+
+
+
+
 .skills > li{
     margin: 0 0 10px 0;
     display: flex;
     flex-direction: row;
+   
+    gap:0.5rem;
 }
 .icon{
     color:#33e1ed;
@@ -48,9 +52,8 @@ li i{
       
     }
     .about{
-        width: auto;
-        border: none;
         padding: 0;
+        border: none;
         text-align: center;
       
        
@@ -84,19 +87,28 @@ li i{
 @media (max-width: 800px){
     .about-container {
         background: none;
-        margin: auto;
         box-shadow: none;
         width: fit-content;
-        padding: 0 1rem;
+        padding: 0;
+        max-width: 90%;
         
     }
     .about{
-
         border: none;
         margin: auto;
         text-align: center;
-      
-       
+    }
+    .listing{
+        gap: 0.5rem;
+        padding: 0;
+    }
+    .skills-container{
+        max-width: 90%;
+    }
+    .skills{
+        padding: 0;
+        gap: 0.5rem;
+        flex-wrap: wrap;
     }
  
 }

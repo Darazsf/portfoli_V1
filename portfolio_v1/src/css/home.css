@@ -29,7 +29,6 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-      
         margin-top: 4rem;
 
     }
@@ -47,15 +46,22 @@
 @media (max-width: 800px){
     .me{
         display: flex;
-        text-align: center;
         justify-content: center;
+        text-align: center;
         flex-direction: column;
-        padding-bottom: 3rem;
+        margin: 2rem auto;
+        max-width: 90%;
         
     }
     .sepia{
-        
         width: 200px;
-     
+        
     }
+    .welcome{
+        margin-top: 1rem;
+    }
+    .home-container{
+        padding: 0;
+    }
+  
 }
