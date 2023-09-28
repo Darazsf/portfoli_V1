@@ -15,7 +15,7 @@ const Navbar = () => {
     return (
     
       <nav className="navbar">
-        <div className="container">
+        <div className="nav-container">
          
             <h1><a href="/" className="name">Darázs Ferenc</a></h1>
        

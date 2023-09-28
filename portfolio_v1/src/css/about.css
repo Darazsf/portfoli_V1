@@ -40,12 +40,11 @@ li i{
 }
 @media (max-width: 1270px) {
     .about-container {
-        margin: 2rem auto;
+        margin: 4rem auto;
         display: flex;
         flex-direction: column;
         text-align:center;
         justify-content: center;
-
       
     }
     .about{
@@ -53,31 +52,30 @@ li i{
         border: none;
         padding: 0;
         text-align: center;
+      
        
     }
     .skills{
      display: flex;
      flex-direction: row;
      justify-content: space-between;
-     
-
-     
     }
+
+    
     .skills-container{
-        margin-top: 0rem;
-        margin-left: 0rem;
+        margin: auto;
         display: flex;
         flex-direction: column;
         text-align:center;
         justify-content: center;
     }
-    .skills{
-        padding: 0;
-    
-    }
+
     .listing{
-        padding: 0;
-        list-style: none;
+        display: flex;
+        flex-direction: column;
+        justify-content:center;
+        margin: auto;
+        width:51%;
        
      
     }
@@ -86,13 +84,19 @@ li i{
 @media (max-width: 800px){
     .about-container {
         background: none;
-        max-width: 100%;
-        margin: 0;
-        padding: 0;
+        margin: auto;
         box-shadow: none;
-        margin: 1rem;
+        width: fit-content;
+        padding: 0 1rem;
         
+    }
+    .about{
+
+        border: none;
+        margin: auto;
+        text-align: center;
       
+       
     }
  
 }
