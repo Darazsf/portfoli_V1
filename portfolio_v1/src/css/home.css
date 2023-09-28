@@ -29,8 +29,16 @@
         flex-direction: column;
         justify-content: center;
         text-align: center;
-        padding-bottom: 3rem;
+      
+        margin-top: 0;
 
+    }
+    .home-container{
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       text-align: center;
+       margin: 0;
     }
 }
 
@@ -43,6 +51,7 @@
         justify-content: center;
         flex-direction: column;
         padding-bottom: 3rem;
+        
     }
     .sepia{
         

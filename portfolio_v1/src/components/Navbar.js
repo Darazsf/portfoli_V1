@@ -27,7 +27,7 @@ const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                <span> {"< "}Home{"/>"}</span>
+                <span> {"</"}Home{" >"}</span>
               </NavLink>
               </li>
 
@@ -37,7 +37,7 @@ const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                <span> {"< "}About{"/>"}</span>
+                <span> {"</"}About{" >"}</span>
               </NavLink></li>
               <li> <NavLink
                 to="/projects"
@@ -45,7 +45,7 @@ const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                <span> {"< "}Projects{"/>"}</span>
+                <span> {"</"}Projects{" >"}</span>
               </NavLink></li>
               <li>  <NavLink
                 to="/contact"
@@ -53,7 +53,7 @@ const Navbar = () => {
                   isPending ? "pending" : isActive ? "active" : ""
                 }
               >
-                <span> {"< "}Contact{"/>"}</span>
+                <span> {"</"}Contact{" >"}</span>
               </NavLink></li>
             </ul>
 

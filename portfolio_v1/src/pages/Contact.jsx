@@ -5,6 +5,7 @@ import "../css/contact.css"
 export default function Contact() {
     return (
         <>
+      
             <div className="contact-container">
                 <div><h2  className="page-adress">Contact</h2></div>
                 <div className="contact">

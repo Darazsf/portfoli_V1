@@ -5,11 +5,11 @@
     justify-content: space-between;
     width: 60%;
     margin: 3rem auto;
-    background-color: #393f4d;
+    background-color: #666666;
     padding: 1rem 3rem;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    color: beige;
+    color: #f5e1c8;
     
 }
 .about{
@@ -32,7 +32,7 @@
     flex-direction: row;
 }
 .icon{
-    color:#178582;
+    color:#33e1ed;
 }
 
 li i{
@@ -40,7 +40,7 @@ li i{
 }
 @media (max-width: 1270px) {
     .about-container {
-        margin: 4rem 8rem;
+        margin: 2rem auto;
         display: flex;
         flex-direction: column;
         text-align:center;
@@ -53,13 +53,14 @@ li i{
         border: none;
         padding: 0;
         text-align: center;
-        
-    
-
        
     }
-    .skills > li{
-     justify-content:center
+    .skills{
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     
+
      
     }
     .skills-container{

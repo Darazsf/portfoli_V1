@@ -23,7 +23,7 @@
     box-shadow: rgba(118, 124, 130, 1) 0px 1px 10px;
   }
 .navbar:hover{
-  background-color: rgba(58, 67, 76, 1); 
+  background-color: #666666; 
   transition: all .5s ease;
  
 }
@@ -48,7 +48,7 @@
   }
   
   .nav-elements ul a.active {
-    color:#bac2c6;
+    color:#97dcd6;
     font-weight: 800;
     position: relative;
 
