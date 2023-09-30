@@ -49,23 +49,15 @@
   }
   
   .nav-elements ul a.active {
-    color:#33e1ed;
+    color:aqua;
     font-weight: 800;
     position: relative;
 
   }
-
-  
-  .nav-elements ul a.active::after {
-    content: '';
-    position: absolute;
-    bottom: -4px;
-    left: 0;
-    width: 100%;
-    height: 2px;
-    background-color: #6f97a1;
-    
+  .nav-elements ul a:hover{
+    color: #33e1ed;
   }
+
   .name{
     font-family: 'Great Vibes', cursive;
     font-size: xx-large;

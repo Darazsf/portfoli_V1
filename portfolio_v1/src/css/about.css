@@ -4,7 +4,7 @@
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
-    margin: 3rem auto;
+    margin: 3rem auto 5rem auto;
     background-color: #666666;
     padding: 1rem 3rem;
     border-radius: 5px;
@@ -91,6 +91,7 @@ li i{
         width: fit-content;
         padding: 0;
         max-width: 90%;
+        
         
     }
     .about{
