@@ -15,7 +15,10 @@ const Navbar = () => {
 
  const[isActive,setActive]=useState(false)
 
- console.log(isActive)
+function close(){
+  setActive(false)
+
+}
 
 
 
@@ -64,25 +67,25 @@ const Navbar = () => {
           {isActive ? 
           <div className="dropdown-menu">
           <li><NavLink
-            to="/">
+            to="/" onClick={()=>close()}> 
             <span> {"< "}Home{"/>"}</span>
           </NavLink>
           </li>
 
           <li> <NavLink
-            to="/about">
-            <span> {"< "}About{"/>"}</span>
+            to="/about" onClick={()=>close()}>
+             {"< "}About{"/>"}
           </NavLink>
           </li>
 
           <li> <NavLink
-            to="/projects">
+            to="/projects" onClick={()=>close()}>
             <span> {"< "}Projects{"/>"}</span>
           </NavLink>
           </li>
 
           <li>  <NavLink
-            to="/contact">
+            to="/contact" onClick={()=>close()}>
             <span> {"< "}Contact{"/>"}</span>
           </NavLink>
           </li>
