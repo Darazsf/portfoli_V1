@@ -2,6 +2,9 @@
 import { NavLink } from "react-router-dom";
 import "../css/navbar.css"
 import { useState } from "react";
+import "../css/dropdown.css"
+
+
 
 
 
@@ -9,10 +12,15 @@ import { useState } from "react";
 const Navbar = () => {
 
 
- 
+
+ const[isActive,setActive]=useState(false)
+
+ console.log(isActive)
+
 
 
     return (
+
     
       <nav className="navbar">
         <div className="nav-container">
@@ -22,92 +30,75 @@ const Navbar = () => {
           <div className="nav-elements">
             <ul>
               <li><NavLink
-                to="/"
-                className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
-                }
-              >
+                to="/">
                 <span> {"</"}Home{" >"}</span>
               </NavLink>
               </li>
 
               <li> <NavLink
-                to="/about"
-                className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
-                }
-              >
+                to="/about">
                 <span> {"</"}About{" >"}</span>
-              </NavLink></li>
+              </NavLink>
+              </li>
+
               <li> <NavLink
-                to="/projects"
-                className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
-                }
-              >
+                to="/projects">
                 <span> {"</"}Projects{" >"}</span>
-              </NavLink></li>
-              <li>  <NavLink
-                to="/contact"
-                className={({ isActive, isPending }) =>
-                  isPending ? "pending" : isActive ? "active" : ""
-                }
-              >
+              </NavLink>
+              </li>
+
+              <li> <NavLink
+                to="/contact">
                 <span> {"</"}Contact{" >"}</span>
-              </NavLink></li>
+              </NavLink>
+              </li>
+
             </ul>
 
-            {/* Dropdown menu */}
           </div>
-          <div className="toggle-btn"><i onClick={openMenu()}><span class="material-symbols-outlined">
+          <div className="toggle-btn" onClick={()=>setActive(!isActive)}><i><span class="material-symbols-outlined">
             menu
           </span></i></div>
 
-          <div className="dropdown-menu">
-            <li><NavLink
-              to="/"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
-              }
-            >
-              <span> {"< "}Home{"/>"}</span>
-            </NavLink>
-            </li>
 
-            <li> <NavLink
-              to="/about"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
-              }
-            >
-              <span> {"< "}About{"/>"}</span>
-            </NavLink></li>
-            <li> <NavLink
-              to="/projects"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
-              }
-            >
-              <span> {"< "}Projects{"/>"}</span>
-            </NavLink></li>
-            <li>  <NavLink
-              to="/contact"
-              className={({ isActive, isPending }) =>
-                isPending ? "pending" : isActive ? "active" : ""
-              }
-            >
-              <span> {"< "}Contact{"/>"}</span>
-            </NavLink></li>
-          </div>
+          {isActive ? 
+          <div className="dropdown-menu">
+          <li><NavLink
+            to="/">
+            <span> {"< "}Home{"/>"}</span>
+          </NavLink>
+          </li>
+
+          <li> <NavLink
+            to="/about">
+            <span> {"< "}About{"/>"}</span>
+          </NavLink>
+          </li>
+
+          <li> <NavLink
+            to="/projects">
+            <span> {"< "}Projects{"/>"}</span>
+          </NavLink>
+          </li>
+
+          <li>  <NavLink
+            to="/contact">
+            <span> {"< "}Contact{"/>"}</span>
+          </NavLink>
+          </li>
+        </div>
+        :
+        ""}
+
+          
+
+          
         </div>
       </nav>
 
-    
     )
   }
 
-        function openMenu(){
-         
-  }
+
   
   export default Navbar

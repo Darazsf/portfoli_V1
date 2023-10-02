@@ -1,0 +1,29 @@
+
+.dropdown-menu{
+    position: absolute;
+    right: 0.2rem;
+    top: 60px;
+    height: 0;
+    width: 150px;
+    background: rgba(251, 250, 250, 0.1);
+    border-radius: 5px;
+    list-style: none;
+    backdrop-filter: blur(15px);
+    display: block;
+    overflow: hidden;
+  }
+  .toggle-btn:hover{
+    cursor: pointer;
+  
+  }
+  .dropdown-menu.open{
+    height: 300px;
+  
+  }
+  .dropdown-menu li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    
+  }
