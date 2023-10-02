@@ -65,31 +65,31 @@ function close(){
 
 
           {isActive ? 
-          <div className="dropdown-menu">
-          <li><NavLink
-            to="/" onClick={()=>close()}> 
-            <span> {"< "}Home{"/>"}</span>
-          </NavLink>
-          </li>
+            <div className="dropdown-menu">
+              <li><NavLink
+                to="/" onClick={() => close()}>
+               <span>{"< "}Home{"/>"}</span> 
+              </NavLink>
+              </li>
 
-          <li> <NavLink
-            to="/about" onClick={()=>close()}>
-             {"< "}About{"/>"}
-          </NavLink>
-          </li>
+              <li> <NavLink
+                to="/about" onClick={() => close()}>
+               <span> {"< "}About{"/>"} </span>
+              </NavLink>
+              </li>
 
-          <li> <NavLink
-            to="/projects" onClick={()=>close()}>
-            <span> {"< "}Projects{"/>"}</span>
-          </NavLink>
-          </li>
+              <li> <NavLink
+                to="/projects" onClick={() => close()}>
+                <span> {"< "}Projects{"/>"}</span>
+              </NavLink>
+              </li>
 
-          <li>  <NavLink
-            to="/contact" onClick={()=>close()}>
-            <span> {"< "}Contact{"/>"}</span>
-          </NavLink>
-          </li>
-        </div>
+              <li>  <NavLink
+                to="/contact" onClick={() => close()}>
+                <span> {"< "}Contact{"/>"}</span>
+              </NavLink>
+              </li>
+            </div>
         :
         ""}
 

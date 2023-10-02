@@ -2,20 +2,13 @@
     position: absolute;
     right: 0.2rem;
     top: 60px;
-    z-index: +1;
-    height: 0;
-    width: 100%;
+    z-index: 1;
+    width: 50%;
     list-style: none;
     backdrop-filter: blur(15px);
-    display: block;
     height: 150px;
-    background: rgba(245, 225, 200, 0.65);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(1.5px);
-    -webkit-backdrop-filter: blur(1.5px);
-    border: 1px solid rgba(245, 225, 200, 0.25);
-
+    transition-duration: .25s;
+ 
 
 
 }
@@ -26,13 +19,19 @@
 
 
 
-.dropdown-menu li {
+.dropdown-menu li{
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 5px;
-
+    
 }
-.dropdown-menu ul a {
-    color: rgb(237, 6, 6);
+
+.dropdown-menu li span {
+   font-size:large;
+    color: beige;
+ 
 } 
+.dropdown-menu li span:hover{
+    color: #33e1ed;
+}
