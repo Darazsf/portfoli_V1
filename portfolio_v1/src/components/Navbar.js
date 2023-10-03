@@ -1,7 +1,7 @@
 
 import { NavLink } from "react-router-dom";
 import "../css/navbar.css"
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import "../css/dropdown.css"
 
 
@@ -15,12 +15,43 @@ const Navbar = () => {
 
  const[isActive,setActive]=useState(false)
 
-function close(){
-  setActive(false)
+  function close(){
+    setActive(false)
 
-}
+  }
 
 
+  
+    const [screenSize, setScreenSize] = useState({
+      width: window.innerWidth,
+    
+    });
+  
+    useEffect(() => {
+      const handleResize = () => {
+        setScreenSize({
+          width: window.innerWidth,
+        
+        });
+     
+      };
+     
+      window.addEventListener('resize', handleResize);
+    
+      
+    if(screenSize.width>800){
+      close()
+      }
+      // Clean up the event listener when the component unmounts
+      return () => {
+        window.removeEventListener('resize', handleResize);
+
+      
+      };
+    
+    }, [screenSize]);
+
+ 
 
     return (
 
@@ -59,7 +90,7 @@ function close(){
             </ul>
 
           </div>
-          <div className="toggle-btn" onClick={()=>setActive(!isActive)}><i><span class="material-symbols-outlined">
+          <div className="toggle-btn" onClick={()=>setActive(!isActive)}><i><span className="material-symbols-outlined">
             menu
           </span></i></div>
 
