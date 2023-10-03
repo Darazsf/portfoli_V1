@@ -42,6 +42,7 @@
   font-weight: 700;
   color: beige;
   text-decoration: none;
+  
 }
 
 .nav-elements ul a.active {
@@ -53,6 +54,9 @@
 
 .nav-elements ul a:hover {
   color: #33e1ed;
+  top: -0.16em;
+        transition: padding .5s, top .35s, box-shadow .4s;
+        box-shadow: 0 0.4rem 0 -0.2rem #0ebac5;
 }
 
 .name {
@@ -65,6 +69,9 @@
 
 .name:hover {
   color: #33e1ed;
+  top: -0.16em;
+        transition: padding .5s, top .35s, box-shadow .4s;
+        box-shadow: 0 0.4rem 0 -0.2rem #0ebac5;
   
 }
 
