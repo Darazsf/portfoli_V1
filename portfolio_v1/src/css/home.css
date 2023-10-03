@@ -2,6 +2,7 @@
     border-radius: 5px;
     filter: grayscale(80%);
     object-fit: contain;
+  
     
 }
 .home-container{
@@ -15,27 +16,29 @@
   100% { transform: scale(1); }
 }
 .me{
-    margin: auto;
-    max-width: 50%;
+    margin: 0 auto 3rem auto;
+    max-width: 60%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 10%;
+    gap: 8%;
     color: beige;
+    padding: 0;
    
 }
 
 
 
 
-@media (max-width: 1270px){
-
+@media (max-width: 1020px){
+   
     .me{
         display: flex;
         flex-direction: column;
         justify-content: center;
         text-align: center;
         margin-top: 4rem;
+        
 
     }
     .home-container{
@@ -43,7 +46,7 @@
        flex-direction: column;
        justify-content: center;
        text-align: center;
-       margin: 0;
+       max-width:fit-content;
     }
 }
 
@@ -61,9 +64,6 @@
     }
     .sepia{
         width: 200px;
-
-          
-        
     }
     .welcome{
         margin-top: 1rem;

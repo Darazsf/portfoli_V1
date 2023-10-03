@@ -22,8 +22,8 @@
     flex-direction: column;
     justify-content:center;
     text-align: center;
-    margin-top: 2rem;
-    gap: 3rem;
+    margin-top: 1rem;
+    gap: 1rem;
     animation: grow 1.5s;
 
 }
