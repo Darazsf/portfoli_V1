@@ -24,8 +24,13 @@
     text-align: center;
     margin-top: 2rem;
     gap: 3rem;
-   
+    animation: grow 1.5s;
 
+}
+
+@keyframes grow {
+    0% { transform: scale(.2); }
+  100% { transform: scale(1); }
 }
 .con-icon{
     list-style: none;

@@ -1,0 +1,57 @@
+.mail{
+    width: 600px;
+    padding: 2rem;
+    border-radius: 20px;
+    background-color: #666666;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 5rem;
+    
+    }
+
+    .form-control{
+        width: 500px;
+        border-radius: 5px;
+        margin-bottom: 0.5rem;
+        font-family: 'Poppins', sans-serif;
+        background-color: rgb(245, 245, 234);
+    }
+    .btn-submit{
+    
+      background-color: #33e1ed;
+      border-radius: 100px;
+      box-shadow: #666666 0 -25px 18px -14px inset,beige 0 1px 2px,#33e1ed 0 2px 4px,#666666 0 4px 8px;
+      color: beige;
+      cursor: pointer;
+      display: inline-block;
+      padding: 7px 20px;
+      text-align: center;
+      text-decoration: none;
+      transition: all 250ms;
+      border: 0;
+      font-size: 16px;
+     
+     
+    
+    }
+    
+    .btn-submit:hover {
+      box-shadow: #33e1ed 0 -25px 18px -14px inset,#33e1ed 0 1px 2px,#33e1ed 0 2px 4px;
+      transform: scale(1.05) rotate(-1deg);
+    }
+
+    @media (max-width: 800px){
+        .mail{
+          width: 70%;
+          padding: 1rem 0 ;
+          
+        }
+        .form-control{
+         width: 90%;
+         
+        }
+    }
+    
