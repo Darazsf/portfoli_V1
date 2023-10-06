@@ -1,28 +1,55 @@
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 import "../css/email.css"
+import "../css/modal.css"
 
 
 
 
 
 export default function Mail() {
+
+
   const form = useRef();
+  const [modal, setModal] = useState(true)
+
+
+  // const toggleModal = () => {
+  //     setModal(!modal);
+     
+  //     }
+    
 
   const sendEmail = (e) => {
     e.preventDefault();
 
     emailjs.sendForm('service_gr70dbf', 'template_jook6ch', form.current, 'AEHnTAVWCgtZ3Lvmr')
       .then((result) => {
-          console.log(result.text);
+      //  toggleModal()
       }, (error) => {
           console.log(error.text);
       });
   };
+
+
+
+
   
   return (
 <>
+{/* Modal */}
+{modal && (
+                <div className="modal">
+                    <div className="modal-content">
+                        <div className="modal-header"> <h2>You have successfully sent the email!</h2>
+                        <button className="close-modal" >
+                            X
+                        </button></div>
+                    </div>
+                </div>
+            )}
 
+ {/* Email */}
 <div className="mail">
   <div>
     <form action="#" className="contact-form" ref={form} onSubmit={sendEmail}>
@@ -44,6 +71,7 @@ export default function Mail() {
     </form>
   </div>
 </div>
+
 
     </>
   );

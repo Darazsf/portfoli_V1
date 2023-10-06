@@ -1,13 +1,17 @@
 .dropdown-menu {
     position: absolute;
-    right: 1rem;
+    right: 0.5rem;
     top: 85px;
     background-color: #666666;
     z-index: 1;
-    margin: 0 auto;
+    margin: 0 ;
     list-style: none;
     backdrop-filter: blur(15px);
-    transition-duration: .25s;
+    width: 30%;
+    border-radius: 5px;
+    
+   
+  
 
 
 
@@ -15,6 +19,7 @@
 
 .toggle-btn:hover {
     cursor: pointer;
+    color: #33e1ed;
 }
 
 
@@ -24,6 +29,7 @@
     align-items: center;
     justify-content: center;
     padding: 5px;
+   margin:1.5rem 0;
     
 }
 
@@ -36,5 +42,8 @@
 .dropdown-menu li a{
     text-decoration: none;
     
+}
+.dropdown-menu li span:hover{
+    color: #33e1ed;
 }
 

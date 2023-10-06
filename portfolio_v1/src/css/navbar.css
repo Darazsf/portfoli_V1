@@ -109,6 +109,7 @@
   .toggle-btn {
     display: block;
     color: beige;
+    margin-top: auto;
   }
 
   .name {
