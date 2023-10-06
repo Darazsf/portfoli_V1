@@ -93,6 +93,7 @@ const Navbar = () => {
           <div className="toggle-btn" onClick={()=>setActive(!isActive)}><i><span className="material-symbols-outlined">
             menu
           </span></i></div>
+        
 
 
           {isActive ? 
