@@ -14,7 +14,7 @@ export default function About(){
                 </p>
                 <h2>Current Goals</h2>
                 <ul className="listing">
-                    <li>Learn more with a great team</li>
+                    <li>Find a job in the Frontend industry</li>
                     <li>Beig part of a good community</li>
                     <li>Learn more with a great team</li>
                 </ul>
@@ -40,8 +40,8 @@ export default function About(){
                             <h2>I would like to learn in the future</h2>
                             <ul className="listing">
                                 <li>Typescript</li>
-                                <li>Boostrap</li>
-                                <li>Tailwind Css</li>
+                                <li>Nextjs or similar</li>
+                                <li>Boostrap/Tailwind Css</li>
                             </ul>
                         </div>
 
