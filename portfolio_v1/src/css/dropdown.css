@@ -1,19 +1,18 @@
 .dropdown-menu {
     position: absolute;
-    right: 0rem;
-    top: 85px;
-    z-index: 1;
+    right: 0.5rem;
+    top: 4.5rem;
     margin: 0;
     list-style: none;
     width: 95%;
-    border-radius: 5px;
     z-index: 1;
-    background: rgba(102, 102, 102, 0.36);
-    border-radius: 16px;
+    background: rgba(255,255,255,.1);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(5.7px);
-    -webkit-backdrop-filter: blur(5.7px);
-    border: 1px solid rgba(102, 102, 102, 0.58);
+    border: 1px solid aqua;
+    
+   
 }
 
 .toggle-btn:hover {
@@ -32,13 +31,18 @@
 
 .dropdown-menu li span {
     font-size: large;
-    color: beige;
+    color: black;
     font-weight: 600;
+   background-color:aqua;
+   padding: 0.2rem 1rem;
+   border-radius: 20px;
+
 
 }
 
 .dropdown-menu li a {
     text-decoration: none;
+    
 
 }
 
