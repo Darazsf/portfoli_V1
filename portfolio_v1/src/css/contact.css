@@ -1,5 +1,4 @@
-
-.page-adress:after{
+.page-adress:after {
     content: "";
     display: block;
     margin: 0 auto;
@@ -8,18 +7,18 @@
     border-bottom: 1px solid beige;
 }
 
-.material-symbols-outlined{
+.material-symbols-outlined {
     width: 50px;
     height: 50px;
-    margin:auto;
+    margin: auto;
 
 }
 
 
-.contact-container{
+.contact-container {
     display: flex;
     flex-direction: column;
-    justify-content:center;
+    justify-content: center;
     text-align: center;
     margin-top: 1rem;
     gap: 1rem;
@@ -28,49 +27,58 @@
 }
 
 @keyframes grow {
-    0% { transform: scale(.2); }
-  100% { transform: scale(1); }
+    0% {
+        transform: scale(.2);
+    }
+
+    100% {
+        transform: scale(1);
+    }
 }
-.con-icon{
+
+.con-icon {
     list-style: none;
     display: flex;
     flex-direction: row;
     justify-content: center;
     text-align: center;
     gap: 4rem;
-   
-    
-  
-   
+
+
+
+
 }
-.con-icon > li >span{
+
+.con-icon>li>span {
     border-radius: 25% 10%;
     background-color: #BFA181;
-    padding-top: 1rem;
     margin-top: 2rem;
-    
+    padding-top: 0.8rem;
 }
-.con-icon > li >p{
+
+.con-icon>li>p {
     margin-top: 2rem;
 }
 
-.mail{
+.mail {
     margin-top: 5rem;
 }
 
 
 
-@media (max-width: 800px){
-    .con-icon{
+@media (max-width: 800px) {
+    .con-icon {
         flex-direction: column;
         margin: auto;
         padding: 0;
-        
+
     }
-    .con-icon > li >span{
+
+    .con-icon>li>span {
         margin: 0;
     }
-    .mail{
+
+    .mail {
         margin-top: 3rem;
     }
 

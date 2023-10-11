@@ -21,25 +21,22 @@
     }
     .btn-submit{
     
-      background-color: #33e1ed;
+      background-color: #14beca;
       border-radius: 100px;
-      box-shadow: #666666 0 -25px 18px -14px inset,#666666 0 1px 2px,#33e1ed 0 2px 4px,#666666 0 4px 8px;
       color: beige;
       cursor: pointer;
       display: inline-block;
-      padding: 7px 20px;
+      padding: 8px 20px;
       text-align: center;
       text-decoration: none;
       transition: all 250ms;
       border: 0;
       font-size: 16px;
-     
-     
-    
+
     }
     
     .btn-submit:hover {
-      box-shadow: #33e1ed 0 -25px 18px -14px inset,#33e1ed 0 1px 2px,#33e1ed 0 2px 4px;
+      box-shadow: #666666 0 -25px 18px -14px inset,#666666 0 1px 2px,#33e1ed 0 2px 4px,#666666 0 4px 8px;
       transform: scale(1.05) rotate(-1deg);
     }
 
