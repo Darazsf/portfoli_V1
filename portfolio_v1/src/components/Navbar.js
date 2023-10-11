@@ -1,6 +1,6 @@
 import { NavLink } from "react-router-dom";
 import "../css/navbar.css"
-import { useContext, useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import "../css/dropdown.css"
 
 
