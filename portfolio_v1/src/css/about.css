@@ -3,13 +3,12 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 70%;
+    width: 60%;
     margin: 2rem auto 5rem auto;
     background-color: #666666;
     padding: 3rem 3rem;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
-    color: #f5e1c8;
     animation: grow 1.5s;
     
 }
@@ -19,28 +18,31 @@
   100% { transform: scale(1); }
 }
 .about{
-    width: 90%;
+    width: 95%;
     border-right: 1px solid blanchedalmond;
     padding-right: 3rem;  
 }
-h2{
-   font-size: 22px;
 
-
-}
 
 
 .skills-container{
-    margin-top: 4rem;
+    margin-top: 3rem;
     margin-left: 2rem;
+}
+.skills{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
 }
 
 
-.skills > li{
+.skills li{
     margin: 0 0 10px 0;
+    gap:0.3rem;
+    list-style: none;
     display: flex;
-    flex-direction: row;
-    gap:0.5rem;
+    
 }
 .icon{
     color:#33e1ed;
@@ -48,6 +50,9 @@ h2{
 
 li i{
     text-align:center;
+}
+.listing{
+    margin-left: 2rem;
 }
 @media (max-width: 1270px) {
     .about-container {

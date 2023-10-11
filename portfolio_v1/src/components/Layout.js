@@ -10,18 +10,17 @@ import "../css/theme.css"
 
 export default function Layout() {
 
-    const [theme, setTheme] = useState('light'); // light v. dark
+
 
 
     return (
         <div className="layout-container">
-            <ThemeContext.Provider value={{ theme: theme, setTheme: setTheme }}>
-                <div className={`${theme}`}>
+          
                     <Navbar />
                     <Outlet />
                     <Footer />
-                </div>
-            </ThemeContext.Provider>
+               
+        
 
 
         </div>

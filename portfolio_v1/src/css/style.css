@@ -2,10 +2,18 @@ body {
     margin: 0;
     padding: 0;
     background-color: #3e4144;
-    font-weight: 550;
+    font-weight: 500;
     letter-spacing: 0.5px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     color: beige;
 
+  }
+  h2{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+  }
+  h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
   }

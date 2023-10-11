@@ -2,14 +2,14 @@ import { NavLink } from "react-router-dom";
 import "../css/navbar.css"
 import { useContext, useEffect, useState } from "react";
 import "../css/dropdown.css"
-import { ThemeContext } from "../context/ThemeContext";
+
 
 
 
 const Navbar = () => {
 
 
-  const { theme, setTheme } = useContext(ThemeContext)
+
   const [isActive, setActive] = useState(false)
   const [screenSize, setScreenSize] = useState({
     width: window.innerWidth,
@@ -17,10 +17,7 @@ const Navbar = () => {
   });
 
 
-    const changeHandler = (event) => {
-      console.log('Kivalasztott tema:', event.target.value);
-      setTheme(event.target.value);
-    }
+
   
     useEffect(() => {
       const handleResize = () => {
@@ -89,12 +86,7 @@ const Navbar = () => {
             </ul>
           </div>
 
-          {/* <div>
-      <select name="theme" onChange={changeHandler}>
-          <option value="light">Light</option>
-          <option value="dark">Dark</option>
-      </select>
-    </div> */}
+
           <div className="toggle-btn" onClick={()=>setActive(!isActive)}><i><span className="material-symbols-outlined">
             menu
           </span></i></div>
