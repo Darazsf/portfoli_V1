@@ -61,6 +61,7 @@
     .footer-container{
        justify-content: end;
        height: 40px;
+       z-index: 1;
         
 
     }

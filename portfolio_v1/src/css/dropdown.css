@@ -1,11 +1,11 @@
 .dropdown-menu {
     position: absolute;
     right: 0.5rem;
-    top: 4.5rem;
+    top: 5rem;
     margin: 0;
     list-style: none;
-    width: 95%;
-    z-index: 1;
+    width: 96%;
+    z-index: 2;
     background: rgba(255,255,255,.1);
     backdrop-filter: blur(10px);
     border-radius: 10px;

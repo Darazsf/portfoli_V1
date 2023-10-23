@@ -125,7 +125,9 @@ li i{
       
     }
     .skills > li{
-        justify-content: center;
+        
+       justify-content: center;
+        
         
     }
  
