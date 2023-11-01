@@ -1,24 +1,24 @@
 import "../css/about.css"
 
-export default function About(){
-    return(
+export default function About() {
+    return (
         <>
-        <div className="about-container">
-            <div className="about">
-                <h1>Hello</h1>
-                <h3>I'm Feri,</h3>
-                <p> After 14 years in the aviation world, I was  looking for new chellenges
-                    So in October 2022, I started to study programming after I had been around the subject
-                    and really liked in. In June 2023,
-                    I successfully passes the Progmatic Academy exam.
-                </p>
-                <h3>Current Goals</h3>
-                <ul className="listing">
-                    <li>Find a job in the Frontend industry</li>
-                    <li>Beig part of a good community</li>
-                    <li>Learn more with a great team</li>
-                </ul>
-            </div>
+            <div className="about-container">
+                <div className="about">
+                    <h1>Hello</h1>
+                    <h3>I'm Feri,</h3>
+                    <p> After 14 years in the aviation world, I was  looking for new chellenges
+                        So in October 2022, I started to study programming after I had been around the subject
+                        and really liked in. In June 2023,
+                        I successfully passes the Progmatic Academy exam.
+                    </p>
+                    <h3>Current Goals</h3>
+                    <ul className="listing">
+                        <li>Find a job in the Frontend industry</li>
+                        <li>Beig part of a good community</li>
+                        <li>Learn more with a great team</li>
+                    </ul>
+                </div>
 
 
                 <div className="skills-container">

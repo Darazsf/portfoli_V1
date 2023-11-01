@@ -9,18 +9,11 @@ import "../css/theme.css"
 export default function Layout() {
 
 
-
-
     return (
         <div className="layout-container">
-          
-                    <Navbar />
-                    <Outlet />
-                    <Footer />
-               
-        
-
-
+            <Navbar />
+            <Outlet />
+            <Footer />
         </div>
     )
 }

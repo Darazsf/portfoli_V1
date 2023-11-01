@@ -14,10 +14,10 @@ export default function Mail() {
   const [modal, setModal] = useState()
 
 
-   const toggleModal = () => {
-       setModal(!modal);
+  const toggleModal = () => {
+    setModal(!modal);
 
-       }
+  }
 
 
   const sendEmail = (e) => {
@@ -25,7 +25,7 @@ export default function Mail() {
 
     emailjs.sendForm('service_gr70dbf', 'template_jook6ch', form.current, 'AEHnTAVWCgtZ3Lvmr')
       .then((result) => {
-          toggleModal()
+        toggleModal()
       }, (error) => {
         console.log(error.text, "valami félre ment!");
       });
@@ -42,7 +42,7 @@ export default function Mail() {
         <div className="modal">
           <div className="modal-content">
             <div>
-              <span class="close" onClick={()=>setModal(!modal)}>+</span>
+              <span class="close" onClick={() => setModal(!modal)}>+</span>
             </div>
             <div className="modal-header"> <h2>You have successfully sent the email!</h2>
               <span class="material-symbols-outlined" >
