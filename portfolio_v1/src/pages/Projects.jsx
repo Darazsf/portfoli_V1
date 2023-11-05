@@ -20,7 +20,7 @@ export default function Projects() {
                                 <h3>
                                     <a href="https://team8-webshop.vercel.app/" target="_blank">Webshop</a>
                                 </h3>
-                                <p>My classNamemates and I collaborated on this project, creating an online toy store as our final assignment for the bootcamp.</p>
+                                <p>My classmates and I collaborated on this project, creating an online toy store as our final assignment for the bootcamp.</p>
                                 <div className="button-wrapper">
                                 <a href="https://github.com/Darazsf/webshop" target="_blank"><button className="btn outline">Source code</button></a>
                                     <a href="https://team8-webshop.vercel.app/" target="_blank"> <button className="btn fill">Live</button></a>

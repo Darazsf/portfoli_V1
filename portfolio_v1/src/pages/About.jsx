@@ -34,7 +34,7 @@ export default function About() {
                     <div>
                         <h3>Other related technologies I'm familiar with, or have some knowledge</h3>
                         <div>
-                            <p>Git, Scrum, Reat API, Ajax, OOP, Firebase, Boostrap</p>
+                            <p>Git, Scrum, React API, Ajax, OOP, Firebase, Boostrap</p>
                         </div>
                         <div>
                             <h3>I would like to learn in the future</h3>

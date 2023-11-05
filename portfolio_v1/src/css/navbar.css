@@ -26,7 +26,7 @@
 }
 
 .navbar:hover {
-  background-color: #666666;
+  background-color: #30363d;
   transition: all .5s ease;
 
 }
@@ -50,7 +50,7 @@
 }
 
 .nav-elements ul a.active {
-  color: #33e1ed;
+  color: #6ec3be;
   font-weight: 800;
   position: relative;
 
