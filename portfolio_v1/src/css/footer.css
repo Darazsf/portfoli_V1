@@ -9,8 +9,7 @@
     text-align: center;
     height: 2.5rem;
     margin: 0;
-    color: beige;
-    background-color: #3e4144;
+    background-color: #30363d;
 
 }
 
@@ -22,13 +21,12 @@
     justify-content: space-between;
     align-items: center;
     gap: 0.5rem;
-    color: beige;
     margin: 0;
     
     
 }
 .footer-icon a:hover{
-    color:#33e1ed;
+    color:#43ffff;
     top: -0.16em;
         transition: padding .5s, top .35s, box-shadow .4s;
         box-shadow: 0 0.4rem 0 -0.2rem #0ebac5;
@@ -41,10 +39,6 @@
     
 }
 
-.footer-icon a {
-    color: beige;
-   
-}
 
 @media (max-width: 800px){
 

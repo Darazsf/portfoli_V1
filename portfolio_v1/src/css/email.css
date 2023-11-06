@@ -2,7 +2,7 @@
     width: 600px;
     padding: 2rem;
     border-radius: 20px;
-    background-color: #30363d;
+    background-color: #3e4144;
     display: flex;
     justify-content: center;
     text-align: center;
@@ -23,7 +23,7 @@
     
       background-color: #14beca;
       border-radius: 100px;
-      color: beige;
+      color: #fff0db;
       cursor: pointer;
       display: inline-block;
       padding: 8px 20px;

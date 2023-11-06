@@ -26,7 +26,7 @@
 }
 
 .navbar:hover {
-  background-color: #30363d;
+  background-color: #3e4144;
   transition: all .5s ease;
 
 }
@@ -44,7 +44,6 @@
 .nav-elements ul a {
   font-size: 16px;
   font-weight: 700;
-  color: beige;
   text-decoration: none;
   
 }
@@ -67,15 +66,14 @@
   font-family: 'Great Vibes', cursive;
   font-size: xx-large;
   text-decoration: none;
-  color: beige;
 
 }
 
 .name:hover {
-  color: #33e1ed;
+  color: #43ffff;
   top: -0.16em;
         transition: padding .5s, top .35s, box-shadow .4s;
-        box-shadow: 0 0.4rem 0 -0.2rem #0ebac5;
+        box-shadow: 0 0.4rem 0 -0.2rem #43ffff;
   
 }
 
@@ -113,7 +111,7 @@
 
   .toggle-btn {
     display: block;
-    color: beige;
+    color: #fff0db;
     display: flex;
     flex-direction: column;
     text-align: center;

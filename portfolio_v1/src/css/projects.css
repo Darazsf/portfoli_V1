@@ -67,7 +67,7 @@
     margin-bottom: 3rem;
     padding: 0;
     text-align: center;
-    color: blanchedalmond;
+  
 }
 
 .card .face.face2 .content h3 {
@@ -110,7 +110,7 @@ a {
 
 .outline {
     background: transparent;
-    color: rgba(0, 212, 255, 0.9);
+    color: #43ffff;
     border: 1px solid rgba(0, 212, 255, 0.6);
     transition: all .3s ease;
 
