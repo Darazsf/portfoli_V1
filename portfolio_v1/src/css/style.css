@@ -6,7 +6,9 @@ body {
     letter-spacing: 0.5px;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
-    color: beige;
+    color: #fff0db;
+    scroll-behavior: smooth;
+    
 
   }
   h2{
