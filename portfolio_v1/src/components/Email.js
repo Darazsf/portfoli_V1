@@ -44,7 +44,8 @@ export default function Mail() {
             <div>
               <span class="close" onClick={() => setModal(!modal)}>+</span>
             </div>
-            <div className="modal-header"> <h2>You have successfully sent the email!</h2>
+            <div className="modal-header">
+               <h2>You have successfully sent the email!</h2>
               <span class="material-symbols-outlined" >
                 check_circle
               </span></div>
