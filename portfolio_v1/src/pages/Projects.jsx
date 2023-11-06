@@ -66,8 +66,8 @@ export default function Projects() {
                                 
                                     <p>Simple rock-paper-scissors game with Dom manipulation and a bit of CSS."</p>
                                     <div className="button-wrapper">
-                                <a href="https://darazsf.github.io/rock-paper-scissors-game/" target="_blank"><button className="btn outline">Source code</button></a>
-                                    <a href="https://github.com/Darazsf/rock-paper-scissors-game" target="_blank"> <button className="btn fill">Live</button></a>
+                                <a href="https://github.com/Darazsf/rock-paper-scissors-game" target="_blank"><button className="btn outline">Source code</button></a>
+                                    <a href="https://darazsf.github.io/rock-paper-scissors-game/" target="_blank"> <button className="btn fill">Live</button></a>
                                 </div>
                             </div>
                            
