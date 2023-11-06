@@ -64,10 +64,10 @@ export default function Projects() {
                         <div className="face face2">
                             <div className="content">
                                 
-                                    <p>A defining part of my life so far has been calculating aircraft takeoff/landing weights on paper. I have now implemented a portion of it using simple JavaScript with DOM manipulation to achieve the end result. Minimal CSS</p>
+                                    <p>Simple rock-paper-scissors game with Dom manipulation and a bit of CSS."</p>
                                     <div className="button-wrapper">
-                                <a href="https://github.com/Darazsf/Loadsheet" target="_blank"><button className="btn outline">Source code</button></a>
-                                    <a href="https://darazsf.github.io/Loadsheet/" target="_blank"> <button className="btn fill">Live</button></a>
+                                <a href="https://darazsf.github.io/rock-paper-scissors-game/" target="_blank"><button className="btn outline">Source code</button></a>
+                                    <a href="https://github.com/Darazsf/rock-paper-scissors-game" target="_blank"> <button className="btn fill">Live</button></a>
                                 </div>
                             </div>
                            
