@@ -1,5 +1,5 @@
 .project-wrapper {
-    margin: 1rem 15rem;
+    margin: 1rem 0;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
@@ -9,7 +9,9 @@
     animation: grow 1.5s;
 
 }
-
+.wrapper{
+    flex-basis: 25%;
+}
 
 .card-img {
     height: 250px;
@@ -17,8 +19,6 @@
     width: 350px
     
 }
-
-
 
 .wrapper .card .face {
     width: 350px;
@@ -37,7 +37,6 @@
     align-items: center;
     z-index: 1;
     transform: translateY(100px);
-    
 
 }
 
@@ -46,7 +45,6 @@
     transform: translateY(0px);
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
-
 
 .card .face.face2 {
     position: relative;
@@ -95,9 +93,7 @@ a {
     position: absolute;
     left: 15%;
     bottom: 15px;
-    
-    
-    
+ 
 }
 
 .btn {
