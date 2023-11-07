@@ -23,8 +23,10 @@
     border-right: 1px solid #fff0db;
     padding-right: 3rem;  
 }
-.myCv{
-    font-size: xx-large;
+#myCv{
+    font-size: larger;
+    color: #33e1ed;
+    text-decoration: underline;
 }
 
 
