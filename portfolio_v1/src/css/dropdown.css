@@ -4,15 +4,15 @@
     top: 5rem;
     margin: 0;
     list-style: none;
-    width: 70%;
+    width: 100%;
     height: fit-content;
     z-index: 2;
-    background: rgba(255,255,255,.1);
-    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(15px);
     border-radius: 5px;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    border: 1px solid aqua;
- 
+    font-size: 2rem;
+
 }
 
 .toggle-btn:hover {
@@ -27,27 +27,18 @@
     flex-direction: column;
     padding: 5px;
     margin: 3rem 0;
-   
+
 
 }
 
 .dropdown-menu li span {
-    font-size:1.2rem;
-    color: black;
+    font-size: 1.2rem;
     font-weight: 600;
-   background-color:aqua;
-   padding: 0.2rem 1rem;
-   border-radius: 20px;
-
-
+    padding: 0.2rem 1rem;
+    border-radius: 20px;
 }
 
 .dropdown-menu li a {
     text-decoration: none;
-    
-
 }
 
-.dropdown-menu li span:hover {
-    color: #33e1ed;
-}
